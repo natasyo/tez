@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="contact-modal">
+         <form action="#" class="subscribe-form">
+            <input type="text" class="form-control subscribe-form__input" name="name" placeholder="Имя">
+            <input type="text" class="form-control subscribe-form__input" name="phone" placeholder="Телефон">
+            <input type="submit" value="Подписаться" class="btn subscribe-form__btn">
+            <p class="subscribe-form__warning">Нажимая на кнопу "Получить консультацию" вы соглашаетесь с условиями <a href="#">"Политики конфиденциальности"</a></p>                        
+        </form>
+    </div>
+    <div class="mobile-menu">
+        <div class="header-contacts__pone">
+            <p class="header-contacts__pone-text">Звонок бесплатный </p>
+            <a class="header-contacts__pone-number" href="tel:78866873587">+7 886 687 35 87</a>
+        </div>
+        <div class="header-contacts__social">
+            <a class="header-contacts__social-item" href="#">
+                <img src="images/vk.png" alt="vkontakte">
+            </a>
+            <a class="header-contacts__social-item"  href="#">
+                <img src="images/fb.png" alt="facebook">
+            </a>
+            <a class="header-contacts__social-item"  href="#">
+                <img src="images/instagram.png" alt="instagram">
+            </a>
+            <a class="header-contacts__social-item"  href="#">
+                <img src="images/youtube.png" alt="youtube">
+            </a>
+        </div>
+        <nav class="main-menu">
+            <ul class="main-menu__wrap">
+                <li class="main-menu__item"><a href="#">Главная </a></li>
+                <li class="main-menu__item"><a href="#">Туры </a></li>
+                <li class="main-menu__item"><a href="#">Страны </a></li>
+                <li class="main-menu__item"><a href="#">Виды отдыха </a></li>
+                <li class="main-menu__item"><a href="#">Корпоративным клиентам </a></li>
+                <li class="main-menu__item"><a href="#">Туристам </a></li>
+                <li class="main-menu__item"><a href="#">О компании</a></li>
+            </ul>
+        </nav> 
+         <ul class="top-menu__wrap">
+            <li class="top-menu__item">
+              <a href="#">Подобрать тур</a></li>
+            <li class="top-menu__item top-menu__item-sub">
+              <a href="#">Как и где купить?</a>
+              <ul class="top-menu__submenu">
+                  <li class="top-menu__submenu-item top-menu__submenu-item_btn">
+                       <a href="#">Купить онлайн</a> 
+                  </li>
+                  <li class="top-menu__submenu-item">
+                       <a href="#">Купить в агентстве</a> 
+                  </li>
+              </ul>
+           </li>
+            <li class="top-menu__item">
+              <a href="#">Контакты</a>
+            </li>  
+          </ul>
+    </div>
+    <p class="c-hamburger c-hamburger--htx mobile-icon">
+      <span><span>toggle menu</span></span>
+    </p>
+<header class="header" id="header">
+    <div class="header-top">
+        <div class="container header-top__container">
+            <div class="row header-top__row">
+                <div class="top-menu">
+                    <ul class="top-menu__wrap">
+                      <li class="top-menu__item">
+                        <a href="#">Подобрать тур</a></li>
+                      <li class="top-menu__item top-menu__item-sub">
+                        <a href="#">Как и где купить?</a>
+                        <ul class="top-menu__submenu">
+                            <li class="top-menu__submenu-item top-menu__submenu-item_btn">
+                                 <a href="#">Купить онлайн</a> 
+                            </li>
+                            <li class="top-menu__submenu-item">
+                                 <a href="#">Купить в агентстве</a> 
+                            </li>
+                        </ul>
+                     </li>
+                      <li class="top-menu__item">
+                        <a href="#">Контакты</a>
+                      </li>  
+                    </ul>
+                    
+                </div>
+                <div class="header-contacts">
+                    <div class="header-contacts__social">
+                        <a class="header-contacts__social-item" href="#">
+                            <img src="images/vk.png" alt="vkontakte">
+                        </a>
+                        <a class="header-contacts__social-item"  href="#">
+                            <img src="images/fb.png" alt="facebook">
+                        </a>
+                        <a class="header-contacts__social-item"  href="#">
+                            <img src="images/instagram.png" alt="instagram">
+                        </a>
+                        <a class="header-contacts__social-item"  href="#">
+                            <img src="images/youtube.png" alt="youtube">
+                        </a>
+                    </div>
+                    <div class="header-contacts__pone">
+                        <p class="header-contacts__pone-text">Звонок бесплатный </p>
+                        <a class="header-contacts__pone-number" href="tel:78866873587">+7 886 687 35 87</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-main">
+        <div class="container header-main__container">
+            <div class="row header-main__row">
+                
+                <a href="/" class="logo header-main__logo">
+                    <img src="images/logo.svg" alt=""  class="logo__img">
+
+                    <img src="images/logo-mobile.svg" class="logo__img-mob" alt="">
+                </a>
+                <!-- <div class="header-main__right"> -->
+                   <nav class="main-menu">
+                        <ul class="main-menu__wrap">
+                            <li class="main-menu__item"><a href="#">Главная </a></li>
+                            <li class="main-menu__item"><a href="#">Туры </a></li>
+                            <li class="main-menu__item"><a href="#">Страны </a></li>
+                            <li class="main-menu__item"><a href="#">Виды отдыха </a></li>
+                            <li class="main-menu__item"><a href="#">Корпоративным клиентам </a></li>
+                            <li class="main-menu__item"><a href="#">Туристам </a></li>
+                            <li class="main-menu__item"><a href="#">О компании</a></li>
+                        </ul>
+                    </nav>  
+                    <a href="#" class="btn header-main__btn">Купить тур On-Line</a>
+                <!-- </div> -->
+                
+            </div>
+        </div>
+    </div>
+</header>
+<section class="bread">
+  <div class="container">
+    <p class="bread__row">
+      <a href="#" class="bread__prev-link"><img src="images/prev-info.png" alt="">Назад</a>
+      <a href="#">Главная</a>
+      <a href="#">Контакты</a>
+    </p>
+  </div>
+</section>
+<section class="contacts-offices">
+  <div class="container">
+    <div class="contacts-offices__item">
+      <div class="contacts-offices__item-photo">
+        <img src="images/office1.jpg" alt="">
+      </div>
+      <div class="contacts-offices__item-info">
+        <p class="contacts-offices__item-name h2">м. Коньково </p>
+        <div class="contacts-offices__item-info-wrap">
+          <p>Уполномоченное агентство TEZ TOUR</p>
+          <p><b>Адрес:</b> 117647, г. Москва, ул. Профсоюзная, д. 109</p>
+          <p><b>Телефон:</b> +7 (495) 420-27-11, (495) 788-83-87, <br>   online1 427-374-615 (Петрова Людмила)</p>
+          <p><b>skype</b> ico  skype teztourkonkovo</p>
+            <p><b>График работы пн-пт:</b> 10:00 - 20:00 сб, вс: 11:00 - 18:00</p>
+        </div>
+        <a href="#" class="btn contacts-offices__location">
+          <img src="images/location.png" alt="">
+          Показать на карте
+        </a>
+      </div>
+    </div>
+    <div class="contacts-offices__item">
+      <div class="contacts-offices__item-photo">
+        <img src="images/office2.jpg" alt="">
+      </div>
+      <div class="contacts-offices__item-info">
+        <p class="contacts-offices__item-name h2">м. Лубянка</p>
+        <div class="contacts-offices__item-info-wrap">
+          <p>Уполномоченное агентство TEZ TOUR</p>
+          <p><b>Адрес:</b> 109012, г. Москва, ул. Никольская, д. 25, ТЦ "Наутилус"</p>
+          <p><b>Телефон:</b> +7 (495) 626-29-29</p>
+          <p><b>График работы:</b> пн-пт: 10:00 - 21:00 сб, вс: 11:00 - 19:00</p>
+        </div>
+        <a href="#" class="btn contacts-offices__location">
+          <img src="images/location.png" alt="">
+          Показать на карте
+        </a>
+      </div>
+    </div>
+    <div class="contacts-offices__item">
+      <div class="contacts-offices__item-photo">
+        <img src="images/office3.jpg" alt="">
+      </div>
+      <div class="contacts-offices__item-info">
+        <p class="contacts-offices__item-name h2">м. Серпуховская </p>
+        <div class="contacts-offices__item-info-wrap">
+          <p>Уполномоченное агентство TEZ TOUR</p>
+            <p><b>Адрес:</b> 115093, г. Москва, ул. Большая Серпуховская, д.14/13, стр. 1, 2-й этаж, офис 23 <br>  один выход из метро, из стеклянных дверей направо, затем по улице прямо, идти 2 минуты, слева будет офисное здание, ориентир 4 металлические двери, вывеска при входе с правой стороны "ТЕЗ ТУР".</p>
+          <p><b>Телефон:</b> +7 (495) 626-26-00 (многоканальный)</p>
+             <p><b>E-mail:</b> office@tezclub.com</p>
+          <p><b>График работы:</b> пн - пт: 10:00 - 20:00 сб, вс: выходные</p>
+        </div>
+        <a href="#" class="btn contacts-offices__location">
+          <img src="images/location.png" alt="">
+          Показать на карте
+        </a>
+      </div>
+    </div>
+     <div class="contacts-offices__item">
+      <div class="contacts-offices__item-photo">
+        <img src="images/office4.jpg" alt="">
+      </div>
+      <div class="contacts-offices__item-info">
+        <p class="contacts-offices__item-name h2">м. Чертановская</p>
+        <div class="contacts-offices__item-info-wrap">
+        <p>Уполномоченное агентство TEZ TOUR</p>
+        <p><b>Адрес:</b> 117639, Москва, Балаклавский просп., 5А, <br> 
+         ТЦ "Штаер", 1-й этаж, офис 3-161А.</p>
+        <p><b>Телефон:</b> +7 (495) 721-01-80</p>
+        <p><b>График работы</b> пн, вт, ср, чт, пт, сб, вс: 10:00 - 21:00</p>
+        </div>
+        <a href="#" class="btn contacts-offices__location">
+          <img src="images/location.png" alt="">
+          Показать на карте
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="contact-section contact-section_inner">
+    <div class="container contact-section__container">
+        <form action="#" class="contact-form">
+            <img src="images/women.png" alt=""  class="contact-form__image">
+            <p class="contact-form__text">
+                Получите бесплатную консультацию <br>по подбору тура
+            </p>
+            <div class="contact-form__input-wrap">
+                <div class="contact-form__input-content">
+                   <input type="text" class="form-control contact-form__input" placeholder="Имя"> 
+                   <input type="text" class="form-control contact-form__input" placeholder="Телефон">
+                   <input type="submit" class="btn contact-form__btn" value="Получить консультацию">
+                </div>
+                <p class="contact-form__warning>Нажимая на кнопу "Получить консультацию" вы соглашаетесь с условиями <a href="#">"Политики конфиденциальности"</a></p>
+            </div>
+        </form>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer__top">
+        <div class="container">
+            <div class="footer__wrap">
+                <div class="footer__info">
+                    <div class="footer__columns">
+                        <div class="footer__column">
+                            <p class="footer__column-name">
+                              Виды отдыха  
+                            </p>
+                            <ul class="footer__menu">
+                                 <li><a href="#">Лучшие цены от TEZ TOUR </a></li>
+                                 <li><a href="#">Новогодние туры </a></li>
+                                 <li><a href="#">Свадебные туры </a></li>
+                                 <li><a href="#">VIP отдых и услуги </a></li>
+                                 <li><a href="#">Отдых на островах </a></li>
+                                 <li><a href="#">Морские круизы </a></li>
+                                 <li><a href="#">Детский отдых </a></li>
+                                 <li><a href="#">Отдых с детьми </a></li>
+                                 <li><a href="#">Корпоративный отдых </a></li>
+                                 <li><a href="#"> Экскурсионный отдых </a></li>
+                                 <li><a href="#">Пляжный отдых </a></li>
+                                 <li><a href="#"> Горнолыжные туры</a></li>
+                            </ul>                    
+                        </div>
+                        <div class="footer__column">
+                            <p class="footer__column-name">
+                             Туристам 
+                            </p>
+                            <ul class="footer__menu">
+                                <li><a href="#">Туристам</a>
+                                <li><a href="#">Акции и спецпредложения</a>
+                                <li><a href="#">Памятка туриста</a>
+                                <li><a href="#">Новости</a>
+                                <li><a href="#">Подарочные сертификаты</a>
+                                <li><a href="#">Как купить тур</a>
+                                <li><a href="#">Раннее бронирование</a>
+                                <li><a href="#">Горящие туры</a>
+                                <li><a href="#">Туры в рассрочку</a>
+                            </ul>                    
+                        </div>
+                        <div class="footer__column">
+                            <p class="footer__column-name">
+                             MICE 
+                            </p>
+                            <ul class="footer__menu">
+                                <li><a href="#">Для корпоративных клиентов</a>
+                                <li><a href="#">Примеры корпоративных программ</a>
+                                <li><a href="#">Отели с конференц-залами</a>
+                                <li><a href="#">Нестандартные размеще</a>
+                            </ul>                    
+                        </div>
+                        <div class="footer__column footer__column_contacts">
+                            <div class="footer__phone">
+                                <div class="footer__phone-wrap">
+                                    <p class="footer__phone-text">Звонок бесплатный</p>
+                                    <a href="tel:78866873587" class="footer__phone-number">+7 886 687 35 87</a>
+                                </div>
+                                    <a href="#" class="btn footer__btn consultation">Консультация</a>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <a href="/" class="logo footer__logo">
+                        <img src="images/logo.svg" alt=""  class="logo__img">
+
+                        <img src="images/logo-mobile.svg" class="logo__img-mob" alt="">
+                    </a>
+                </div>
+                <div class="footer__subscribe">
+                    <form action="#" class="subscribe-form">
+                        <img src="images/mail-footer.png" alt="" class="subscribe-form__icon">
+                        <p class="subscribe-form__head">Подпишитесь на рассылку</p>
+                        <p class="subscribe-form__text">И получайте информацию <br> о горящих предложениях онлайн</p>
+                        <input type="text" class="form-control subscribe-form__input" name="name" placeholder="Имя">
+                        <input type="text" class="form-control subscribe-form__input" name="phone" placeholder="Телефон">
+                        <input type="submit" value="Подписаться" class="btn subscribe-form__btn">                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer__grey">
+        <div class="container">
+            <div class="footer__grey-content">
+                <p class="footer__socials">
+                   Мы в социальных сетях:
+                   <span>
+                        <img src="images/vk-blue.png" alt=""> 
+                       <img src="images/fb-blue.png" alt=""> 
+                       <img src="images/instagram-blue.png" alt=""> 
+                       <img src="images/youtube-blue.png" alt=""> 
+                   </span>
+                </p>
+                <p class="footer__line"></p>
+                <p class="footer__pay">
+                    Оплата удобным способом:
+                    <span>
+                        <img src="images/pay-card.png" alt="card">
+                        <img src="images/pay-card2.png" alt="maestro">
+                        <img src="images/pay-cardsber.png" alt="sberbank">
+                        <img src="images/pay-cardalpha.png" alt="alphabank">
+                        <img src="images/pay-iphone.png" alt="apple-pay">
+                    </span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="footer__bottom">
+        <div class="container">
+            <div class="footer__bottom-content">
+                <p>TEZTRAVEL.RU</p>
+                <p>Сайт разработан в студии SVA</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/jquery-3.4.1.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,674 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="contact-modal">
+         <form action="#" class="subscribe-form">
+            <input type="text" class="form-control subscribe-form__input" name="name" placeholder="Имя">
+            <input type="text" class="form-control subscribe-form__input" name="phone" placeholder="Телефон">
+            <input type="submit" value="Подписаться" class="btn subscribe-form__btn">
+            <p class="subscribe-form__warning">Нажимая на кнопу "Получить консультацию" вы соглашаетесь с условиями <a href="#">"Политики конфиденциальности"</a></p>                        
+        </form>
+    </div>
+    <div class="mobile-menu">
+        <div class="header-contacts__pone">
+            <p class="header-contacts__pone-text">Звонок бесплатный </p>
+            <a class="header-contacts__pone-number" href="tel:78866873587">+7 886 687 35 87</a>
+        </div>
+        <div class="header-contacts__social">
+            <a class="header-contacts__social-item" href="#">
+                <img src="images/vk.png" alt="vkontakte">
+            </a>
+            <a class="header-contacts__social-item"  href="#">
+                <img src="images/fb.png" alt="facebook">
+            </a>
+            <a class="header-contacts__social-item"  href="#">
+                <img src="images/instagram.png" alt="instagram">
+            </a>
+            <a class="header-contacts__social-item"  href="#">
+                <img src="images/youtube.png" alt="youtube">
+            </a>
+        </div>
+        <nav class="main-menu">
+            <ul class="main-menu__wrap">
+                <li class="main-menu__item"><a href="#">Главная </a></li>
+                <li class="main-menu__item"><a href="#">Туры </a></li>
+                <li class="main-menu__item"><a href="#">Страны </a></li>
+                <li class="main-menu__item"><a href="#">Виды отдыха </a></li>
+                <li class="main-menu__item"><a href="#">Корпоративным клиентам </a></li>
+                <li class="main-menu__item"><a href="#">Туристам </a></li>
+                <li class="main-menu__item"><a href="#">О компании</a></li>
+            </ul>
+        </nav> 
+         <ul class="top-menu__wrap">
+                      <li class="top-menu__item">
+                        <a href="#">Подобрать тур</a></li>
+                      <li class="top-menu__item top-menu__item-sub">
+                        <a href="#">Как и где купить?</a>
+                        <ul class="top-menu__submenu">
+                            <li class="top-menu__submenu-item top-menu__submenu-item_btn">
+                                 <a href="#">Купить онлайн</a> 
+                            </li>
+                            <li class="top-menu__submenu-item">
+                                 <a href="#">Купить в агентстве</a> 
+                            </li>
+                        </ul>
+                     </li>
+                      <li class="top-menu__item">
+                        <a href="#">Контакты</a>
+                      </li>  
+                    </ul>
+    </div>
+    <p class="c-hamburger c-hamburger--htx mobile-icon">
+      <span><span>toggle menu</span></span>
+    </p>
+<header class="header" id="header">
+    <div class="header-top">
+        <div class="container header-top__container">
+            <div class="row header-top__row">
+                <div class="top-menu">
+                    <ul class="top-menu__wrap">
+                      <li class="top-menu__item">
+                        <a href="#">Подобрать тур</a></li>
+                      <li class="top-menu__item top-menu__item-sub">
+                        <a href="#">Как и где купить?</a>
+                        <ul class="top-menu__submenu">
+                            <li class="top-menu__submenu-item top-menu__submenu-item_btn">
+                                 <a href="#">Купить онлайн</a> 
+                            </li>
+                            <li class="top-menu__submenu-item">
+                                 <a href="#">Купить в агентстве</a> 
+                            </li>
+                        </ul>
+                     </li>
+                      <li class="top-menu__item">
+                        <a href="#">Контакты</a>
+                      </li>  
+                    </ul>
+                    
+                </div>
+                <div class="header-contacts">
+                    <div class="header-contacts__social">
+                        <a class="header-contacts__social-item" href="#">
+                            <img src="images/vk.png" alt="vkontakte">
+                        </a>
+                        <a class="header-contacts__social-item"  href="#">
+                            <img src="images/fb.png" alt="facebook">
+                        </a>
+                        <a class="header-contacts__social-item"  href="#">
+                            <img src="images/instagram.png" alt="instagram">
+                        </a>
+                        <a class="header-contacts__social-item"  href="#">
+                            <img src="images/youtube.png" alt="youtube">
+                        </a>
+                    </div>
+                    <div class="header-contacts__pone">
+                        <p class="header-contacts__pone-text">Звонок бесплатный </p>
+                        <a class="header-contacts__pone-number" href="tel:78866873587">+7 886 687 35 87</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-main">
+        <div class="container header-main__container">
+            <div class="row header-main__row">
+                
+                <a href="/" class="logo header-main__logo">
+                    <img src="images/logo.svg" alt=""  class="logo__img">
+
+                    <img src="images/logo-mobile.svg" class="logo__img-mob" alt="">
+                </a>
+                <!-- <div class="header-main__right"> -->
+                   <nav class="main-menu">
+                        <ul class="main-menu__wrap">
+                            <li class="main-menu__item"><a href="#">Главная </a></li>
+                            <li class="main-menu__item"><a href="#">Туры </a></li>
+                            <li class="main-menu__item"><a href="#">Страны </a></li>
+                            <li class="main-menu__item"><a href="#">Виды отдыха </a></li>
+                            <li class="main-menu__item"><a href="#">Корпоративным клиентам </a></li>
+                            <li class="main-menu__item"><a href="#">Туристам </a></li>
+                            <li class="main-menu__item"><a href="#">О компании</a></li>
+                        </ul>
+                    </nav>  
+                    <a href="#" class="btn header-main__btn">Купить тур On-Line</a>
+                <!-- </div> -->
+                
+            </div>
+        </div>
+    </div>
+</header>
+<section class="reviews-sect reviews-sect_review-page ">
+  <div class="container">
+    <div class="reviews-sect__header-wrap">
+      <p class="h1 reviews-sect__header">Отзывы клиентов Tez Tour</p>
+      <p class="review__count-wr">
+        <span class="review__current-num-video">1</span>  /  
+        <span class="review__count-video">1</span>
+      </p>
+    </div>
+    <div class="reviews-sect__video"> 
+      <div class="reviews-sect__video-wrap1">
+        <img src="images/video1.png" alt="">
+        <p class="reviews-sect__video-desc">Марина - Тайланд</p>
+      </div>
+      <div class="reviews-sect__video-wrap1">
+        <img src="images/video2.png" alt="">
+        <p class="reviews-sect__video-desc"> Олег и Вика - свадебное путешествие</p>
+      </div>
+      <div class="reviews-sect__video-wrap1">
+        <img src="images/video3.png" alt="">
+        <p class="reviews-sect__video-desc">Семья Агафоновых - семейный тур</p>
+      </div>
+      <div class="reviews-sect__video-wrap1">
+        <img src="images/video4.png" alt="">
+        <p class="reviews-sect__video-desc">Олег - экзотическая охота</p>
+      </div>
+      <div class="reviews-sect__video-wrap1">
+        <img src="images/video1.png" alt="">
+        <p class="reviews-sect__video-desc"> Марина - Тайланд</p>
+      </div>
+      <div class="reviews-sect__video-wrap1">
+        <img src="images/video2.png" alt="">
+        <p class="reviews-sect__video-desc">Олег и Вика - свадебное путешествие</p>
+      </div>
+     <div class="reviews-sect__video-wrap1">
+        <img src="images/video3.png" alt="">
+        <p class="reviews-sect__video-desc">Семья Агафоновых - семейный тур</p>
+     </div>
+     <div class="reviews-sect__video-wrap1">
+        <img src="images/video4.png" alt="">
+        <p class="reviews-sect__video-desc">Олег - экзотическая охота</p>
+     </div>
+    </div>    
+    <div class="reviews-sect__reviews">
+      <div class="review">
+        <div class="review__top-row">
+          <div class="review__name-wrap">
+            <div class="review__avatar-wr">
+              <img src="images/avatar.png" alt="">
+            </div>
+            <div class="review__signature">
+              <p class="review__name">Олег и Вика</p>
+              <p class="review__desc">свадебное путешествие</p>
+            </div>
+          </div>
+          <div class="review__text">
+           <p> Неизвестные вечером в четверг, 16 февраля, похитили 42-летнюю женщину на юге Москвы. Об этом сообщается на сайте столичного управления Следственного комитета России (СКР). По данным ведомства, инцидент произошел во дворе одного из жилых домов по улице Красного Маяка. Злоумышленники силой посадили женщину в машину Lada Priora и увезли в неизвестном направлении.</p>
+             Неизвестные вечером в четверг, 16 февраля, похитили 42-летнюю женщину на юге Москвы.
+             Об этом сообщается на сайте столичного управления Следственного комитета России (СКР). По данным ведомства, инцидент произошел во дворе одного из жилых домов по улице Красного Маяка.</p>
+             <p> Неизвестные вечером в четверг, 16 февраля, похитили 42-летнюю женщину на юге Москвы. Об этом сообщается на сайте столичного управления Следственного комитета России (СКР). По данным ведомства, инцидент произошел во дворе одного из жилых домов по улице Красного Маяка. Злоумышленники силой посадили женщину в машину Lada Priora и увезли в неизвестном направлении.</p>
+             Неизвестные вечером в четверг, 16 февраля, похитили 42-летнюю женщину на юге Москвы.
+             Об этом сообщается на сайте столичного управления Следственного комитета России (СКР). По данным ведомства, инцидент произошел во дворе одного из жилых домов по улице Красного Маяка.</p>
+          </div>
+        </div>
+        <div class="review__bottom-row"> 
+          <div class="review__photo-hotel">
+            <p class="h3 review__title">Фото отеля</p>
+            <div class="review__photos-hotel-wrap">
+              <div class="review__photo-hotel-wrap">
+                <img src="images/hotel1.jpg" alt="">
+              </div>
+              <div class="review__photo-hotel-wrap">
+                <img src="images/hotel2.jpg" alt="">
+              </div>
+              <div class="review__photo-hotel-wrap">
+                <img src="images/hotel3.jpg" alt="">
+              </div>
+              <div class="review__photo-hotel-wrap">
+                <img src="images/hotel1.jpg" alt="">
+                <p class="review__photo-more">+3</p>
+              </div>
+            </div>
+          </div>
+          <div class="review__bottom-right">
+            <div class="review__desctiption-hotel">
+              <p class="h3 review__title">Описание отеля</p>
+              <div class="review__stars">
+                <p class="review__stars-item">
+                  <span  class="review__stars-item-name">Звезды:</span>
+                  <img src="images/Star.png" alt="">
+                  <img src="images/Star.png" alt="">
+                  <img src="images/Star.png" alt="">
+                  <img src="images/Star.png" alt="">
+                  <img src="images/Star.png" alt="">
+                </p>
+                <p class="review__stars-item"><span class="review__stars-item-name">Пляж:</span> <span>В отеле</span></p>
+                <p class="review__stars-item"><span class="review__stars-item-name">Тип:</span> <span>All INCLUSIVE</span></p>
+                 <p class="review__stars-item review__stars-item_r">
+                  <span  class="review__stars-item-name-r">Kemer - Savane</span>
+                  <img src="images/Star.png" alt="">
+                  <img src="images/Star.png" alt="">
+                  <img src="images/Star.png" alt="">
+                  <img src="images/Star.png" alt="">
+                  <img src="images/Star.png" alt="">
+                </p>
+                <p class="review__stars-item">
+                  <span  class="review__stars-item-name-r">Turkey Kemer</span>
+                </p>
+              </div>
+            </div>
+            <div class="review__look-hotel">
+               <div class="review__look-hotel-wrap">
+                  <p class="h3 review__title">Понравился отель?</p>
+                  <p  class="review__look-hotel">Вы можете выбрать его</p>
+              </div>
+              <a href="#" class="btn review__look-btn">Посмотреть отель</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="review">
+        <div class="review__top-row">
+          <div class="review__name-wrap">
+            <div class="review__avatar-wr">
+              <img src="images/avatar.png" alt="">
+            </div>
+            <div class="review__signature">
+              <p class="review__name">Олег и Вика</p>
+              <p class="review__desc">свадебное путешествие</p>
+            </div>
+          </div>
+          <div class="review__text">
+           <p> Неизвестные вечером в четверг, 16 февраля, похитили 42-летнюю женщину на юге Москвы. Об этом сообщается на сайте столичного управления Следственного комитета России (СКР). По данным ведомства, инцидент произошел во дворе одного из жилых домов по улице Красного Маяка. Злоумышленники силой посадили женщину в машину Lada Priora и увезли в неизвестном направлении.</p>
+             Неизвестные вечером в четверг, 16 февраля, похитили 42-летнюю женщину на юге Москвы.
+             Об этом сообщается на сайте столичного управления Следственного комитета России (СКР). По данным ведомства, инцидент произошел во дворе одного из жилых домов по улице Красного Маяка.</p>
+             <p> Неизвестные вечером в четверг, 16 февраля, похитили 42-летнюю женщину на юге Москвы. Об этом сообщается на сайте столичного управления Следственного комитета России (СКР). По данным ведомства, инцидент произошел во дворе одного из жилых домов по улице Красного Маяка. Злоумышленники силой посадили женщину в машину Lada Priora и увезли в неизвестном направлении.</p>
+             Неизвестные вечером в четверг, 16 февраля, похитили 42-летнюю женщину на юге Москвы.
+             Об этом сообщается на сайте столичного управления Следственного комитета России (СКР). По данным ведомства, инцидент произошел во дворе одного из жилых домов по улице Красного Маяка.</p>
+          </div>
+        </div>
+        <div class="review__bottom-row"> 
+          <div class="review__photo-hotel">
+            <p class="h3 review__title">Фото отеля</p>
+            <div class="review__photos-hotel-wrap">
+              <div class="review__photo-hotel-wrap">
+                <img src="images/image-tour.jpg" alt="">
+              </div>
+              <div class="review__photo-hotel-wrap">
+                <img src="images/hotel2.jpg" alt="">
+              </div>
+              <div class="review__photo-hotel-wrap">
+                <img src="images/hotel3.jpg" alt="">
+              </div>
+              <div class="review__photo-hotel-wrap">
+                <img src="images/image-tour2.jpg" alt="">
+                <p class="review__photo-more">+3</p>
+              </div>
+            </div>
+          </div>
+          <div class="review__bottom-right">
+            <div class="review__desctiption-hotel">
+              <p class="h3 review__title">Описание отеля</p>
+              <div class="review__stars">
+                <p class="review__stars-item">
+                  <span  class="review__stars-item-name">Звезды:</span>
+                  <img src="images/Star.png" alt="">
+                  <img src="images/Star.png" alt="">
+                  <img src="images/Star.png" alt="">
+                  <img src="images/Star.png" alt="">
+                  <img src="images/Star.png" alt="">
+                </p>
+                <p class="review__stars-item"><span class="review__stars-item-name">Пляж:</span> <span>В отеле</span></p>
+                <p class="review__stars-item"><span class="review__stars-item-name">Тип:</span> <span>All INCLUSIVE</span></p>
+                 <p class="review__stars-item">
+                  <span  class="review__stars-item-name-r">Kemer - Savane</span>
+                  <img src="images/Star.png" alt="">
+                  <img src="images/Star.png" alt="">
+                  <img src="images/Star.png" alt="">
+                  <img src="images/Star.png" alt="">
+                  <img src="images/Star.png" alt="">
+                </p>
+                <p class="review__stars-item">
+                  <span  class="review__stars-item-name-r">Turkey Kemer</span>
+                </p>
+              </div>
+            </div>
+            <div class="review__look-hotel">
+              <div class="review__look-hotel-wrap">
+                  <p class="h3 review__title">Понравился отель?</p>
+                  <p  class="review__look-hotel">Вы можете выбрать его</p>
+              </div>
+              <a href="#" class="btn review__look-btn">Посмотреть отель</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="review__count-wr review__count-wr_page">
+        <span class="review__current-num">1</span>  /  
+        <span class="review__count">1</span>
+      </p>
+  </div>  
+</section>
+<section class="hot-tours" id="hot-tours">
+    <div class="container">
+        <p class="h1 hot-tours__header">Горящие туры</p>
+        <div class="hot-tours__items tuor-slider">
+            <div class="hot-tour">
+                <img src="images/hot-tour1.jpg" class="hot-tour__image" alt="turkey">
+                <div class="hot-tour__overlay">
+                    <p class="hot-tour__name">Турция</p>
+                    <div class="hot-tour__item">
+                        <a href="#" class="hot-tour__place">Кемер</a>
+                        <p class="hot-tour__cost">от 14 186 р./чел</p>
+                    </div>
+                      
+                    <div class="hot-tour__item">
+                        <a href="" class="hot-tour__place">Сиде</a>
+                        <p class="hot-tour__cost">от 17 558 р./чел </p>
+                    </div>
+                    <div class="hot-tour__item">
+                        <a href="" class="hot-tour__place">Белек</a>
+                        <p class="hot-tour__cost">от 22 388 р./чел</p> 
+                    </div>
+
+                </div>
+                
+            </div>
+            <div class="hot-tour">
+                <img src="images/hot-tour2.jpg" class="hot-tour__image" alt="Greece">
+                <div class="hot-tour__overlay">
+                    <p class="hot-tour__name">Греция</p>
+                    <div class="hot-tour__item">
+                        <a href="#" class="hot-tour__place">остров Крит</a>
+                        <p class="hot-tour__cost">от 20 236 р./чел</p>
+                    </div>
+                      
+                    <div class="hot-tour__item">
+                        <a href="" class="hot-tour__place">остров Родос</a>
+                        <p class="hot-tour__cost">от 20 959 р./чел</p>
+                    </div>
+                    <div class="hot-tour__item">
+                        <a href="" class="hot-tour__place">остров Корфу</a>
+                        <p class="hot-tour__cost">от 16 826 р./чел</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hot-tour">
+                <img src="images/hot-tour3.jpg" class="hot-tour__image" alt="Greece">
+                <div class="hot-tour__overlay">
+                    <p class="hot-tour__name">Кипр</p>
+                    <div class="hot-tour__item">
+                        <a href="#" class="hot-tour__place">Айя-Напа </a>
+                        <p class="hot-tour__cost">от 22 728 р./чел</p>
+                    </div>
+                      
+                    <div class="hot-tour__item">
+                        <a href="" class="hot-tour__place">Пафос </a>
+                        <p class="hot-tour__cost">от 23 381 р./чел</p>
+                    </div>
+                    <div class="hot-tour__item">
+                        <a href="" class="hot-tour__place">Протарас</a>
+                        <p class="hot-tour__cost">от 21 214 р. /чел</p>
+                    </div>
+                    <div class="hot-tour__item">
+                        <a href="" class="hot-tour__place">остров Сицилия</a>
+                        <p class="hot-tour__cost">от 24 803 р./чел</p>
+                    </div>
+                    <div class="hot-tour__item">
+                        <a href="" class="hot-tour__place">Лигурия  </a>
+                        <p class="hot-tour__cost">от 28 582 р./чел</p>
+                    </div>  
+                </div>
+            </div>
+            <div class="hot-tour">
+                <img src="images/hot-tour4.jpg" class="hot-tour__image" alt="Greece">
+                <div class="hot-tour__overlay">
+                    <p class="hot-tour__name">Турция</p>
+                    <div class="hot-tour__item">
+                        <a href="#" class="hot-tour__place"> Кемер</a>
+                        <p class="hot-tour__cost">от 14 186 р./чел</p>
+                    </div>
+                      
+                    <div class="hot-tour__item">
+                        <a href="" class="hot-tour__place">Сиде </a>
+                        <p class="hot-tour__cost">от 17 558 р./чел</p>
+                    </div>
+                    <div class="hot-tour__item">
+                        <a href="" class="hot-tour__place">Белек</a>
+                        <p class="hot-tour__cost">от 22 388 р./чел</p>
+                    </div>
+                </div>
+            </div>
+             <div class="hot-tour">
+                <img src="images/hot-tour1.jpg" class="hot-tour__image" alt="turkey">
+                <div class="hot-tour__overlay">
+                    <p class="hot-tour__name">Турция</p>
+                    <div class="hot-tour__item">
+                        <a href="#" class="hot-tour__place">Кемер</a>
+                        <p class="hot-tour__cost">от 14 186 р./чел</p>
+                    </div>
+                      
+                    <div class="hot-tour__item">
+                        <a href="" class="hot-tour__place">Сиде</a>
+                        <p class="hot-tour__cost">от 17 558 р./чел </p>
+                    </div>
+                    <div class="hot-tour__item">
+                        <a href="" class="hot-tour__place">Белек</a>
+                        <p class="hot-tour__cost">от 22 388 р./чел</p> 
+                    </div>
+
+                </div>
+                
+            </div>
+            <div class="hot-tour">
+                <img src="images/hot-tour2.jpg" class="hot-tour__image" alt="Greece">
+                <div class="hot-tour__overlay">
+                    <p class="hot-tour__name">Греция</p>
+                    <div class="hot-tour__item">
+                        <a href="#" class="hot-tour__place">остров Крит</a>
+                        <p class="hot-tour__cost">от 20 236 р./чел</p>
+                    </div>
+                      
+                    <div class="hot-tour__item">
+                        <a href="" class="hot-tour__place">остров Родос</a>
+                        <p class="hot-tour__cost">от 20 959 р./чел</p>
+                    </div>
+                    <div class="hot-tour__item">
+                        <a href="" class="hot-tour__place">остров Корфу</a>
+                        <p class="hot-tour__cost">от 16 826 р./чел</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hot-tour">
+                <img src="images/hot-tour3.jpg" class="hot-tour__image" alt="Greece">
+                <div class="hot-tour__overlay">
+                    <p class="hot-tour__name">Кипр</p>
+                    <div class="hot-tour__item">
+                        <a href="#" class="hot-tour__place">Айя-Напа </a>
+                        <p class="hot-tour__cost">от 22 728 р./чел</p>
+                    </div>
+                      
+                    <div class="hot-tour__item">
+                        <a href="" class="hot-tour__place">Пафос </a>
+                        <p class="hot-tour__cost">от 23 381 р./чел</p>
+                    </div>
+                    <div class="hot-tour__item">
+                        <a href="" class="hot-tour__place">Протарас</a>
+                        <p class="hot-tour__cost">от 21 214 р. /чел</p>
+                    </div>
+                    <div class="hot-tour__item">
+                        <a href="" class="hot-tour__place">остров Сицилия</a>
+                        <p class="hot-tour__cost">от 24 803 р./чел</p>
+                    </div>
+                    <div class="hot-tour__item">
+                        <a href="" class="hot-tour__place">Лигурия  </a>
+                        <p class="hot-tour__cost">от 28 582 р./чел</p>
+                    </div>  
+                </div>
+            </div>
+            <div class="hot-tour">
+                <img src="images/hot-tour4.jpg" class="hot-tour__image" alt="Greece">
+                <div class="hot-tour__overlay">
+                    <p class="hot-tour__name">Турция</p>
+                    <div class="hot-tour__item">
+                        <a href="#" class="hot-tour__place"> Кемер</a>
+                        <p class="hot-tour__cost">от 14 186 р./чел</p>
+                    </div>
+                      
+                    <div class="hot-tour__item">
+                        <a href="" class="hot-tour__place">Сиде </a>
+                        <p class="hot-tour__cost">от 17 558 р./чел</p>
+                    </div>
+                    <div class="hot-tour__item">
+                        <a href="" class="hot-tour__place">Белек</a>
+                        <p class="hot-tour__cost">от 22 388 р./чел</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="contact-section contact-section_inner">
+    <div class="container contact-section__container">
+        <form action="#" class="contact-form">
+            <img src="images/women.png" alt=""  class="contact-form__image">
+            <p class="contact-form__text">
+                Получите бесплатную консультацию <br>по подбору тура
+            </p>
+            <div class="contact-form__input-wrap">
+                <div class="contact-form__input-content">
+                   <input type="text" class="form-control contact-form__input" placeholder="Имя"> 
+                   <input type="text" class="form-control contact-form__input" placeholder="Телефон">
+                   <input type="submit" class="btn contact-form__btn" value="Получить консультацию">
+                </div>
+                <p class="contact-form__warning">Нажимая на кнопу "Получить консультацию" вы соглашаетесь с условиями <a href="#">"Политики конфиденциальности"</a></p>
+            </div>
+        </form>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer__top">
+        <div class="container">
+            <div class="footer__wrap">
+                <div class="footer__info">
+                    <div class="footer__columns">
+                        <div class="footer__column">
+                            <p class="footer__column-name">
+                              Виды отдыха  
+                            </p>
+                            <ul class="footer__menu">
+                                 <li><a href="#">Лучшие цены от TEZ TOUR </a></li>
+                                 <li><a href="#">Новогодние туры </a></li>
+                                 <li><a href="#">Свадебные туры </a></li>
+                                 <li><a href="#">VIP отдых и услуги </a></li>
+                                 <li><a href="#">Отдых на островах </a></li>
+                                 <li><a href="#">Морские круизы </a></li>
+                                 <li><a href="#">Детский отдых </a></li>
+                                 <li><a href="#">Отдых с детьми </a></li>
+                                 <li><a href="#">Корпоративный отдых </a></li>
+                                 <li><a href="#"> Экскурсионный отдых </a></li>
+                                 <li><a href="#">Пляжный отдых </a></li>
+                                 <li><a href="#"> Горнолыжные туры</a></li>
+                            </ul>                    
+                        </div>
+                        <div class="footer__column">
+                            <p class="footer__column-name">
+                             Туристам 
+                            </p>
+                            <ul class="footer__menu">
+                                <li><a href="#">Туристам</a>
+                                <li><a href="#">Акции и спецпредложения</a>
+                                <li><a href="#">Памятка туриста</a>
+                                <li><a href="#">Новости</a>
+                                <li><a href="#">Подарочные сертификаты</a>
+                                <li><a href="#">Как купить тур</a>
+                                <li><a href="#">Раннее бронирование</a>
+                                <li><a href="#">Горящие туры</a>
+                                <li><a href="#">Туры в рассрочку</a>
+                            </ul>                    
+                        </div>
+                        <div class="footer__column">
+                            <p class="footer__column-name">
+                             MICE 
+                            </p>
+                            <ul class="footer__menu">
+                                <li><a href="#">Для корпоративных клиентов</a>
+                                <li><a href="#">Примеры корпоративных программ</a>
+                                <li><a href="#">Отели с конференц-залами</a>
+                                <li><a href="#">Нестандартные размеще</a>
+                            </ul>                    
+                        </div>
+                        <div class="footer__column footer__column_contacts">
+                            <div class="footer__phone">
+                                <div class="footer__phone-wrap">
+                                    <p class="footer__phone-text">Звонок бесплатный</p>
+                                    <a href="tel:78866873587" class="footer__phone-number">+7 886 687 35 87</a>
+                                </div>
+                                    <a href="#" class="btn footer__btn consultation">Консультация</a>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <a href="/" class="logo footer__logo">
+                        <img src="images/logo.svg" alt=""  class="logo__img">
+
+                        <img src="images/logo-mobile.svg" class="logo__img-mob" alt="">
+                    </a>
+                </div>
+                <div class="footer__subscribe">
+                    <form action="#" class="subscribe-form">
+                        <img src="images/mail-footer.png" alt="" class="subscribe-form__icon">
+                        <p class="subscribe-form__head">Подпишитесь на рассылку</p>
+                        <p class="subscribe-form__text">И получайте информацию <br> о горящих предложениях онлайн</p>
+                        <input type="text" class="form-control subscribe-form__input" name="name" placeholder="Имя">
+                        <input type="text" class="form-control subscribe-form__input" name="phone" placeholder="Телефон">
+                        <input type="submit" value="Подписаться" class="btn subscribe-form__btn">                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer__grey">
+        <div class="container">
+            <div class="footer__grey-content">
+                <p class="footer__socials">
+                   Мы в социальных сетях:
+                   <span>
+                        <img src="images/vk-blue.png" alt=""> 
+                       <img src="images/fb-blue.png" alt=""> 
+                       <img src="images/instagram-blue.png" alt=""> 
+                       <img src="images/youtube-blue.png" alt=""> 
+                   </span>
+                </p>
+                <p class="footer__line"></p>
+                <p class="footer__pay">
+                    Оплата удобным способом:
+                    <span>
+                        <img src="images/pay-card.png" alt="card">
+                        <img src="images/pay-card2.png" alt="maestro">
+                        <img src="images/pay-cardsber.png" alt="sberbank">
+                        <img src="images/pay-cardalpha.png" alt="alphabank">
+                        <img src="images/pay-iphone.png" alt="apple-pay">
+                    </span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="footer__bottom">
+        <div class="container">
+            <div class="footer__bottom-content">
+                <p>TEZTRAVEL.RU</p>
+                <p>Сайт разработан в студии SVA</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/jquery-3.4.1.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
